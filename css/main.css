@@ -1555,8 +1555,8 @@ input::-moz-focus-inner {
 header {
 	width: 100%;
 	background: #DBDBDB url(../images/bench2CROPPED.png) ;
-	background-size: 990px 250px;
-	height: 130px;
+	background-size: 1000px 100px;
+	height: 100px;
 	border-bottom: 1px solid #E5E5E5;
 }
 header .header-content { 
@@ -1595,10 +1595,10 @@ header .logo a {
 	padding: 0;
 	outline: 0;
 	border: none;
-	width: 286px;
+	width: 220px;
 	height: 72px;
 	background: url("../images/logo.png") no-repeat center;
-	background-size: 286px 72px;
+	background-size: 220px 72px;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
