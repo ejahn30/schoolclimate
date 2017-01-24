@@ -1,4 +1,4 @@
-application: 141253649877
+application: school-climate-bullying-grant
   
   runtime: python27
  api_version: 1
@@ -12,3 +12,5 @@ application: 141253649877
  - url: /(.*)
    static_files: www/\1
    upload: www/(.*)
+  script: app.js
+  secure: always
