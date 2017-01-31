@@ -1554,9 +1554,10 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 header {
 	width: 100%;
-	background: #DBDBDB url(../images/bench2CROPPED.png) ;
+	background: #FFFFFF  ;
+	background-repeat: repeat-y;
 	background-size: 1000px 100px;
-	height: 100px;
+	height: 275px;
 	border-bottom: 1px solid #E5E5E5;
 }
 header .header-content { 
@@ -1584,8 +1585,8 @@ header a {
  * ------------------------------------------------------------------- */
 header .logo {
 	position: absolute;
-	left: 35px;
-	top: 6px;
+	left: 2px;
+	top: 1px;
 	z-index: 1;
 }
 
@@ -1595,10 +1596,10 @@ header .logo a {
 	padding: 0;
 	outline: 0;
 	border: none;
-	width: 220px;
-	height: 72px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 220px 72px;
+	width: 250px;
+	height: 250px;
+	background: url("../images/newlogo.png") no-repeat center;
+	background-size: 250px 250px;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
@@ -1691,7 +1692,7 @@ header .logo a {
 	float: right;
 	padding-right: 200px;
 	font-family: "montserrat-regular", sans-serif;
-	font-size: 15px;
+	font-size: 22px;
 	height: 78px;
 }
 
